@@ -17,5 +17,17 @@ $ polymer serve
 ```
 $ polymer test
 ```
+## Import
 
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+```
+$ import 'ethjs-element';
+```
+
+## Basic Use
+
+```html
+<ethjs-element  
+    eth="{{eth}}"
+    http-provider="https://ropsten.infura.io">
+</ethjs-element>
+```
