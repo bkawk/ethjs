@@ -1,5 +1,9 @@
 {
   "name": "ethjs-element",
+  "version": "1.0.0",
+  "author": "@bkawk",
+  "license": "MIT",
+  "repository": "https://github.com/bkawk/ethjs-element",
   "description": "A webcomponent that uses ethjs to intereact with the Ethereum Blockchain",
   "main": "ethjs-element.js",
   "dependencies": {
